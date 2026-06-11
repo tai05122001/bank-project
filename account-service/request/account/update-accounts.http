@@ -1,0 +1,32 @@
+### PUT request to update account - success
+PUT http://localhost:8080/api/update
+Content-Type: application/json
+
+{
+  "name": "Torin Tran 2 ",
+  "email": "tai05122002@gmail.com",
+  "mobilePhone": "0868976175",
+  "accountsDto": {
+    "accountNumber": 1075658166,
+    "accountType": "Savings",
+    "branchAddress": "789 Main Street"
+  }
+}
+
+
+### PUT request to update account - fail not found account number
+PUT http://localhost:8080/api/update
+Content-Type: application/json
+
+{
+  "name": "Torin Tran",
+  "email": "tai05122001@gmail.com",
+  "mobilePhone": "0868976174",
+  "accountsDto": {
+    "accountNumber": 1766549799,
+    "accountType": "Savings",
+    "branchAddress": "789 Main Street"
+  }
+}
+
+###

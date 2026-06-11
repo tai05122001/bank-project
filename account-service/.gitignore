@@ -1,0 +1,78 @@
+# ===== COMPILED OUTPUT =====
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# ===== BUILD TOOLS =====
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle/
+build/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# ===== IDE =====
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# ===== LOGS & DATABASE =====
+*.log
+*.sql
+*.sqlite
+
+# ===== OS FILES =====
+.DS_Store
+Thumbs.db
+
+# ===== ENV & SECRETS =====
+.env
+.env.local
+*.properties.local
+application-local.yml
+application-local.yaml
+**/src/main/resources/application-secret*
+
+# Spring Boot
+spring-shell.log
+
+
+.mvn/*
+!.mvn/wrapper/
+!.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/maven-wrapper.jar
