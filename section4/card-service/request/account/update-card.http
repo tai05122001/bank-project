@@ -1,0 +1,12 @@
+### PUT request to update account - success
+PUT http://localhost:8081/api/cards
+Content-Type: application/json
+
+{
+  "mobileNumber": "1234567891",
+  "cardNumber": "100122054196",
+  "cardType": "Credit Cards",
+  "totalLimit": 15000000,
+  "amountUsed": 12000000,
+  "availableAmount": 3000000
+}

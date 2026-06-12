@@ -1,0 +1,29 @@
+### POST request to create account
+POST http://localhost:8080/api/create-account
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "mobilePhone": "0868976172"
+}
+
+
+### POST request to create account
+POST http://localhost:8080/api/create-account
+Content-Type: application/json
+
+{
+  "name": "Torin Nguyen",
+  "email": "tai05122001@gmail.com",
+  "mobilePhone": "0868976175"
+}
+
+
+
+### POST request to create account - internal server error
+POST http://localhost:8080/api/create-account
+Content-Type: application/json
+
+
+

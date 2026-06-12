@@ -1,0 +1,7 @@
+### DELETE request to delete account by mobile phone - success
+DELETE http://localhost:8080/api/delete?mobilePhone=0868976174
+
+### DELETE request to delete account by mobile phone - fail
+DELETE http://localhost:8080/api/delete?mobilePhone=1234567890
+
+

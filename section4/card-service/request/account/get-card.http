@@ -1,0 +1,5 @@
+### GET request to example server
+GET http://localhost:8081/api/cards?mobilePhone=1234567891
+
+### GET request to example server
+GET http://localhost:8081/api/cards?mobilePhone=1234567892

@@ -1,0 +1,28 @@
+### POST request to create loan
+POST http://localhost:8082/api/loans
+Content-Type: application/json
+
+{
+  "mobileNumber": "1234567899",
+  "loanNumber": "123456789012",
+  "loanType": "Home Loan",
+  "totalLoan": 100000,
+  "amountPaid": 100000,
+  "outstandingAmount": 100000
+}
+
+
+### POST request to create loan
+POST http://localhost:8082/api/loans
+Content-Type: application/json
+
+{
+  "mobileNumber": "1234567898",
+  "loanNumber": "123456789013",
+  "loanType": "Home Loan",
+  "totalLoan": 200000,
+  "amountPaid": 200000,
+  "outstandingAmount": 200000
+}
+
+
