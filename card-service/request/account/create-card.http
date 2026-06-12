@@ -1,0 +1,28 @@
+### POST request to create loan
+POST http://localhost:8081/api/cards
+Content-Type: application/json
+
+{
+  "mobileNumber": "1234567890",
+  "cardNumber": "123456789012",
+  "cardType": "Credit Cards",
+  "totalLimit": 100000,
+  "amountUsed": 200000,
+  "availableAmount": 100000
+}
+
+
+### POST request to create loan
+POST http://localhost:8081/api/cards
+Content-Type: application/json
+
+{
+  "mobileNumber": "1234567891",
+  "cardNumber": "123456789013",
+  "cardType": "Credit Cards",
+  "totalLimit": 500000,
+  "amountUsed": 200000,
+  "availableAmount": 100000
+}
+
+

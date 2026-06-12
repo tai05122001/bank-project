@@ -1,11 +1,12 @@
 spring:
   application:
-    name: account-service
+    name: loans-service
   datasource:
     url: jdbc:h2:mem:bank-project
     driver-class-name: org.h2.Driver
-    username: sa
-    password:
+    hikari:
+      username: sa
+      password:
   h2:
     console:
       enabled: true
@@ -17,7 +18,5 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.H2Dialect
-
-
 server:
-  port: 8080
+  port: 8082

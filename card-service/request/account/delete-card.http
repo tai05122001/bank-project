@@ -1,0 +1,7 @@
+### DELETE request to delete loan by mobile phone - success
+DELETE http://localhost:8081/api/cards?mobilePhone=1234567890
+
+### DELETE request to delete loan by mobile phone - fail
+DELETE http://localhost:8081/api/cards?mobilePhone=1234567893
+
+

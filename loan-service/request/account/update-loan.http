@@ -1,0 +1,12 @@
+### PUT request to update account - success
+PUT http://localhost:8082/api/loans
+Content-Type: application/json
+
+{
+  "mobileNumber": "1234567899",
+  "loanNumber": "100665956828",
+  "loanType": "Home Loan",
+  "totalLoan": 100000,
+  "amountPaid": 0,
+  "outstandingAmount": 200000
+}

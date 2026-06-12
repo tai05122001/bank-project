@@ -1,0 +1,5 @@
+### GET request to example server
+GET http://localhost:8082/api/loans?mobilePhone=1234567899
+
+### GET request to example server - fail validate
+GET http://localhost:8082/api/loans?mobilePhone=1234567898
