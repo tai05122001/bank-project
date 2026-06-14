@@ -9,9 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>t3.code</groupId>
-    <artifactId>loan-service</artifactId>
+    <artifactId>loans-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>loan-service</name>
+    <packaging>jar</packaging>
     <description>loan-service</description>
     <url/>
     <licenses>
@@ -83,6 +84,12 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
+                    <image>
+                        <name>trantai0512/${project.artifactId}:s4</name>
+                        <env>
+                            <BP_JVM_VERSION>17</BP_JVM_VERSION>
+                        </env>
+                    </image>
                     <excludes>
                         <exclude>
                             <groupId>org.projectlombok</groupId>

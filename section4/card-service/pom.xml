@@ -9,10 +9,11 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>t3.code</groupId>
-    <artifactId>base</artifactId>
+    <artifactId>cards-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>card-service</name>
     <description>card-service</description>
+    <packaging>jar</packaging>
     <url/>
     <licenses>
         <license/>
@@ -127,6 +128,16 @@
                         </configuration>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <groupId>com.google.cloud.tools</groupId>
+                <artifactId>jib-maven-plugin</artifactId>
+                <version>3.5.1</version>
+                <configuration>
+                    <to>
+                        <image>trantai0512/${project.artifactId}:s4</image>
+                    </to>
+                </configuration>
             </plugin>
         </plugins>
     </build>

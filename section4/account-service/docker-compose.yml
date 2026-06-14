@@ -1,0 +1,38 @@
+services:
+
+  account-service:
+    image: trantai0512/account-service:s4
+    container_name: account-ms
+    ports:
+      - "8080:8080"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - t3bank
+  cards-service:
+    image: trantai0512/cards-service:s4
+    container_name: cart-ms
+    ports:
+      - "8081:8081"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - t3bank
+  loans-service:
+    image: trantai0512/loans-service:s4
+    container_name: loans-ms
+    ports:
+      - "8082:8082"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - t3bank
+networks:
+  t3bank:
+    driver: bridge
